@@ -1,0 +1,101 @@
+h1,
+h2,
+h3,
+h4 {
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  color: #102a42;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: var(--clr-grey-5);
+}
+
+.info-wrap {
+  width: 90vw;
+  margin: 5rem auto;
+}
+
+#experience {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  background: #2caeba;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.jobs-center {
+  width: 80vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+.btn-container, h4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  width: 20em;
+}
+.job-btn {
+  background: transparent;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  margin: 0 0.5rem;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 1rem;
+  line-height: 1;
+  outline-color: #2caeba;
+}
+.job-btn:hover {
+  color: #2caeba;
+  box-shadow: 6px 11px 10px -2px rgba(0, 0, 0, 0.3);
+}
+.btn-wrap{
+  width: fit-content;
+}
+
+
+
+.job-desc {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.job-desc p {
+  margin-bottom: 0;
+}
+.tab, .wrap, .info-wrap{
+  width: 50em;
+  margin-top: -8em;
+  margin-left: 13em;
+  position: absolute;
+}
